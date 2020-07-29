@@ -1,0 +1,35 @@
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.top-bar > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-bar > div > h5 {
+  margin: 10px;
+}
+
+.user {
+  margin-right: 50px;
+  display: flex;
+  background: rgba(100, 50, 250, 0.7);
+  border-radius: 10px;
+  min-width: 150px;
+  height: 40px;
+  width: fit-content;
+  padding: 8px;
+  color: white;
+  justify-content: space-evenly;
+  font-weight: 600;
+}
+.user > .user-info {
+  background-color: aliceblue;
+  color: black;
+  font-size: x-large;
+  border-radius: 50%;
+}
